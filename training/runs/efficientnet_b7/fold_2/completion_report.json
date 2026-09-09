@@ -1,0 +1,12 @@
+{
+  "best_epoch": 4,
+  "validation_loss": 0.6325606250827992,
+  "accuracy": 0.8021828103683493,
+  "macro_f1": 0.6716143209142309,
+  "macro_auc": 0.9324075423625459,
+  "cohens_kappa_unweighted": 0.7081333274750382,
+  "mcc": 0.7113502530970675,
+  "fold": 2,
+  "stopping_epoch": 9,
+  "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_2/best.pt"
+}

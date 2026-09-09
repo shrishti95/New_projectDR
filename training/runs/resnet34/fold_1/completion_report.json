@@ -1,0 +1,12 @@
+{
+  "best_epoch": 6,
+  "validation_loss": 0.640744024986785,
+  "accuracy": 0.8090040927694406,
+  "macro_f1": 0.6876506781924661,
+  "macro_auc": 0.9168727895130928,
+  "cohens_kappa_unweighted": 0.7175531548888736,
+  "mcc": 0.7202081282147927,
+  "fold": 1,
+  "stopping_epoch": 11,
+  "checkpoint_path": "/workspace/project/training/runs/resnet34/fold_1/best.pt"
+}

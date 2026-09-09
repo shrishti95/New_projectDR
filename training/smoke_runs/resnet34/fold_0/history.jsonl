@@ -1,0 +1,2 @@
+{"epoch": 1, "train_loss": 1.1904077529907227, "validation_loss": 3.114333152770996, "learning_rate": 1e-06, "elapsed_seconds": 1.7147854370996356, "accuracy": 0.0, "macro_f1": 0.0, "macro_auc": 0.5, "cohens_kappa_unweighted": 0.0, "mcc": 0.0}
+{"epoch": 1, "train_loss": 1.1904077529907227, "validation_loss": 3.114333152770996, "learning_rate": 1e-06, "elapsed_seconds": 1.0599632812663913, "accuracy": 0.0, "macro_f1": 0.0, "macro_auc": 0.5, "cohens_kappa_unweighted": 0.0, "mcc": 0.0}

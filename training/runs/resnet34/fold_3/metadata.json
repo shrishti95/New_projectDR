@@ -1,0 +1,34 @@
+{
+  "model": "resnet34",
+  "fold": 3,
+  "train_samples": 2930,
+  "validation_samples": 732,
+  "class_weights": [
+    0.4058171808719635,
+    1.9797297716140747,
+    0.7334167957305908,
+    3.7806451320648193,
+    2.48305082321167
+  ],
+  "device": "NVIDIA B200 MIG 1g.45gb",
+  "torch": "2.9.0+cu128",
+  "cuda": "12.8",
+  "config": {
+    "num_classes": 5,
+    "folds": 5,
+    "epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "early_stopping_patience": 5,
+    "label_smoothing": 0.1,
+    "focal_gamma": 2.0,
+    "seed": 42,
+    "weight_decay": 0.0001,
+    "cosine_min_lr": 1e-06,
+    "num_workers": 4
+  },
+  "pretrained": true,
+  "amp_bfloat16": false,
+  "max_train_batches": null,
+  "max_val_batches": null
+}

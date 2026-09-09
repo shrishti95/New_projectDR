@@ -1,0 +1,9 @@
+{
+  "best_epoch": 1,
+  "validation_loss": 3.114333152770996,
+  "accuracy": 0.0,
+  "macro_f1": 0.0,
+  "macro_auc": 0.5,
+  "cohens_kappa_unweighted": 0.0,
+  "mcc": 0.0
+}

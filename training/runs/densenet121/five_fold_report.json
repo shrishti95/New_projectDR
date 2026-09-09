@@ -1,0 +1,107 @@
+{
+  "model": "densenet121",
+  "folds": [
+    {
+      "best_epoch": 5,
+      "validation_loss": 0.6469814791197992,
+      "accuracy": 0.7557980900409277,
+      "macro_f1": 0.5975447806649854,
+      "macro_auc": 0.9194081747488166,
+      "cohens_kappa_unweighted": 0.6460847517060934,
+      "mcc": 0.6519973946660242,
+      "fold": 0,
+      "stopping_epoch": 10,
+      "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_0/best.pt"
+    },
+    {
+      "best_epoch": 6,
+      "validation_loss": 0.6709107656595977,
+      "accuracy": 0.7871759890859482,
+      "macro_f1": 0.6528528291355936,
+      "macro_auc": 0.9095112689255107,
+      "cohens_kappa_unweighted": 0.6883104139124747,
+      "mcc": 0.6944086329053947,
+      "fold": 1,
+      "stopping_epoch": 11,
+      "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_1/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6365857321113388,
+      "accuracy": 0.7789904502046384,
+      "macro_f1": 0.6438151372498655,
+      "macro_auc": 0.9228998087209405,
+      "cohens_kappa_unweighted": 0.677708627928879,
+      "mcc": 0.6857153386971708,
+      "fold": 2,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_2/best.pt"
+    },
+    {
+      "best_epoch": 5,
+      "validation_loss": 0.6142117713318497,
+      "accuracy": 0.7868852459016393,
+      "macro_f1": 0.6459803224301378,
+      "macro_auc": 0.9369982188071162,
+      "cohens_kappa_unweighted": 0.6871194892730909,
+      "mcc": 0.6937445551211174,
+      "fold": 3,
+      "stopping_epoch": 10,
+      "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_3/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6767922270069696,
+      "accuracy": 0.7701778385772914,
+      "macro_f1": 0.621401958510378,
+      "macro_auc": 0.9118677124120298,
+      "cohens_kappa_unweighted": 0.6642085489996638,
+      "mcc": 0.6716306380085021,
+      "fold": 4,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_4/best.pt"
+    }
+  ],
+  "metrics": {
+    "validation_loss": {
+      "mean": 0.649096395045911,
+      "sample_std": 0.025597130705389246
+    },
+    "accuracy": {
+      "mean": 0.775805522762089,
+      "sample_std": 0.013173455559011706,
+      "paper": 0.79,
+      "difference": -0.014194477237911007
+    },
+    "macro_f1": {
+      "mean": 0.6323190055981921,
+      "sample_std": 0.02274235677333903
+    },
+    "macro_auc": {
+      "mean": 0.9201370367228827,
+      "sample_std": 0.010882925571852208,
+      "paper": 0.904,
+      "difference": 0.01613703672288269
+    },
+    "cohens_kappa_unweighted": {
+      "mean": 0.6726863663640403,
+      "sample_std": 0.017728284601187288,
+      "paper": 0.818,
+      "difference": -0.14531363363595962
+    },
+    "mcc": {
+      "mean": 0.6794993118796419,
+      "sample_std": 0.017903388483531787,
+      "paper": 0.653,
+      "difference": 0.02649931187964183
+    }
+  },
+  "std_ddof": 1,
+  "unique_held_out_images": 3662,
+  "paper_source": "classification.pdf, page 8, Table 2",
+  "limitations": [
+    "Paper Table 2 does not report DenseNet-121 macro F1 or validation loss.",
+    "Paper kappa 0.818 exceeds accuracy 0.790 and cannot be ordinary unweighted kappa on the same predictions. Weighting or a reporting error requires clarification.",
+    "The existing image-level splits and documented reproduction assumptions are preserved; this run reports unweighted kappa."
+  ]
+}

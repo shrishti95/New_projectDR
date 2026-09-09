@@ -1,0 +1,107 @@
+{
+  "model": "resnet50",
+  "folds": [
+    {
+      "best_epoch": 10,
+      "validation_loss": 0.6218424269479749,
+      "accuracy": 0.810368349249659,
+      "macro_f1": 0.6817836598548241,
+      "macro_auc": 0.927028387035613,
+      "cohens_kappa_unweighted": 0.718982803083585,
+      "mcc": 0.7217691455060983,
+      "fold": 0,
+      "stopping_epoch": 15,
+      "checkpoint_path": "/workspace/project/training/runs/resnet50/fold_0/best.pt"
+    },
+    {
+      "best_epoch": 6,
+      "validation_loss": 0.6385422811664305,
+      "accuracy": 0.800818553888131,
+      "macro_f1": 0.6807336763953982,
+      "macro_auc": 0.9171871786313762,
+      "cohens_kappa_unweighted": 0.7092036509183,
+      "mcc": 0.7162465155336555,
+      "fold": 1,
+      "stopping_epoch": 11,
+      "checkpoint_path": "/workspace/project/training/runs/resnet50/fold_1/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6431906078554599,
+      "accuracy": 0.7899045020463847,
+      "macro_f1": 0.6499788144336607,
+      "macro_auc": 0.9243881069183246,
+      "cohens_kappa_unweighted": 0.6892922219836722,
+      "mcc": 0.693277304699568,
+      "fold": 2,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/resnet50/fold_2/best.pt"
+    },
+    {
+      "best_epoch": 5,
+      "validation_loss": 0.6344703823490873,
+      "accuracy": 0.7950819672131147,
+      "macro_f1": 0.6387393748254008,
+      "macro_auc": 0.9319218316107849,
+      "cohens_kappa_unweighted": 0.6952091204090527,
+      "mcc": 0.6980614511407988,
+      "fold": 3,
+      "stopping_epoch": 10,
+      "checkpoint_path": "/workspace/project/training/runs/resnet50/fold_3/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.636970707191162,
+      "accuracy": 0.774281805745554,
+      "macro_f1": 0.6257879297870642,
+      "macro_auc": 0.9267984997381802,
+      "cohens_kappa_unweighted": 0.6665081440970159,
+      "mcc": 0.670570167111177,
+      "fold": 4,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/resnet50/fold_4/best.pt"
+    }
+  ],
+  "metrics": {
+    "validation_loss": {
+      "mean": 0.6350032811020229,
+      "sample_std": 0.00801435695150664
+    },
+    "accuracy": {
+      "mean": 0.7940910356285686,
+      "sample_std": 0.013426885696711273,
+      "paper": 0.718,
+      "difference": 0.07609103562856867
+    },
+    "macro_f1": {
+      "mean": 0.6554046910592696,
+      "sample_std": 0.025108429577836218
+    },
+    "macro_auc": {
+      "mean": 0.9254648007868558,
+      "sample_std": 0.00537575808948505,
+      "paper": 0.843,
+      "difference": 0.08246480078685581
+    },
+    "cohens_kappa_unweighted": {
+      "mean": 0.6958391880983251,
+      "sample_std": 0.020110977561139665,
+      "paper": 0.794,
+      "difference": -0.09816081190167492
+    },
+    "mcc": {
+      "mean": 0.6999849167982595,
+      "sample_std": 0.020328007115689682,
+      "paper": 0.556,
+      "difference": 0.14398491679825942
+    }
+  },
+  "std_ddof": 1,
+  "unique_held_out_images": 3662,
+  "paper_source": "classification.pdf, page 8, Table 2",
+  "limitations": [
+    "Paper Table 2 does not report ResNet-50 macro F1 or validation loss.",
+    "The reported paper kappa of 0.794 exceeds its accuracy of 0.718; this cannot be ordinary unweighted kappa on the same predictions. Weighting or a reporting error requires author clarification.",
+    "This benchmark uses unweighted kappa and preserves the established image-level splits and documented reproduction assumptions."
+  ]
+}

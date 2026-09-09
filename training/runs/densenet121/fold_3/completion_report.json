@@ -1,0 +1,12 @@
+{
+  "best_epoch": 5,
+  "validation_loss": 0.6142117713318497,
+  "accuracy": 0.7868852459016393,
+  "macro_f1": 0.6459803224301378,
+  "macro_auc": 0.9369982188071162,
+  "cohens_kappa_unweighted": 0.6871194892730909,
+  "mcc": 0.6937445551211174,
+  "fold": 3,
+  "stopping_epoch": 10,
+  "checkpoint_path": "/workspace/project/training/runs/densenet121/fold_3/best.pt"
+}
