@@ -1,0 +1,106 @@
+{
+  "model": "convnext_tiny",
+  "folds": [
+    {
+      "best_epoch": 5,
+      "validation_loss": 0.6194868728538815,
+      "accuracy": 0.7830832196452933,
+      "macro_f1": 0.6486378060677176,
+      "macro_auc": 0.9287426523809152,
+      "cohens_kappa_unweighted": 0.6851867858782852,
+      "mcc": 0.6969665873385776,
+      "fold": 0,
+      "stopping_epoch": 10,
+      "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_0/best.pt"
+    },
+    {
+      "best_epoch": 7,
+      "validation_loss": 0.5998915224901488,
+      "accuracy": 0.7980900409276944,
+      "macro_f1": 0.6780967485787605,
+      "macro_auc": 0.9387400065386574,
+      "cohens_kappa_unweighted": 0.7068182248130522,
+      "mcc": 0.7148630476246084,
+      "fold": 1,
+      "stopping_epoch": 12,
+      "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_1/best.pt"
+    },
+    {
+      "best_epoch": 6,
+      "validation_loss": 0.6035480434214759,
+      "accuracy": 0.8376534788540245,
+      "macro_f1": 0.714289358612204,
+      "macro_auc": 0.9240936672692417,
+      "cohens_kappa_unweighted": 0.7578554633606029,
+      "mcc": 0.7587326471738921,
+      "fold": 2,
+      "stopping_epoch": 11,
+      "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_2/best.pt"
+    },
+    {
+      "best_epoch": 5,
+      "validation_loss": 0.5851739775287649,
+      "accuracy": 0.819672131147541,
+      "macro_f1": 0.6985797943038068,
+      "macro_auc": 0.9473550673206488,
+      "cohens_kappa_unweighted": 0.7350989020027142,
+      "mcc": 0.7399698559274362,
+      "fold": 3,
+      "stopping_epoch": 10,
+      "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_3/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6191753406694258,
+      "accuracy": 0.7948016415868673,
+      "macro_f1": 0.6606920627884622,
+      "macro_auc": 0.9292923569638789,
+      "cohens_kappa_unweighted": 0.6999285739697274,
+      "mcc": 0.7091505985795377,
+      "fold": 4,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_4/best.pt"
+    }
+  ],
+  "metrics": {
+    "validation_loss": {
+      "mean": 0.6054551513927394,
+      "sample_std": 0.01441396754568063
+    },
+    "accuracy": {
+      "mean": 0.8066601024322841,
+      "sample_std": 0.021793581182727888,
+      "paper": 0.821,
+      "difference": -0.01433989756771581
+    },
+    "macro_f1": {
+      "mean": 0.6800591540701902,
+      "sample_std": 0.02683727532729072
+    },
+    "macro_auc": {
+      "mean": 0.9336447500946684,
+      "sample_std": 0.009329141275665654,
+      "paper": 0.927,
+      "difference": 0.006644750094668361
+    },
+    "cohens_kappa_unweighted": {
+      "mean": 0.7169775900048764,
+      "sample_std": 0.029171558728034674,
+      "paper": 0.727,
+      "difference": -0.010022409995123605
+    },
+    "mcc": {
+      "mean": 0.7239365473288104,
+      "sample_std": 0.02498082748940022,
+      "paper": 0.728,
+      "difference": -0.004063452671189571
+    }
+  },
+  "std_ddof": 1,
+  "unique_held_out_images": 3662,
+  "paper_source": "classification.pdf, page 8, Table 2",
+  "limitations": [
+    "Existing image-level splits and reproduction assumptions preserved.",
+    "Kappa is unweighted; paper weighting is unspecified."
+  ]
+}

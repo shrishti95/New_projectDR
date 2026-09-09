@@ -1,0 +1,12 @@
+{
+  "best_epoch": 11,
+  "validation_loss": 0.6363194486454109,
+  "accuracy": 0.7489768076398363,
+  "macro_f1": 0.615023032219217,
+  "macro_auc": 0.9188188500133221,
+  "cohens_kappa_unweighted": 0.6359730094466937,
+  "mcc": 0.6453724011295201,
+  "fold": 1,
+  "stopping_epoch": 16,
+  "checkpoint_path": "/workspace/project/training/runs/vit_b_16/fold_1/best.pt"
+}

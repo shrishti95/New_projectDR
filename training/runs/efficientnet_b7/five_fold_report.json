@@ -1,0 +1,107 @@
+{
+  "model": "efficientnet_b7",
+  "folds": [
+    {
+      "best_epoch": 3,
+      "validation_loss": 0.6445724111949925,
+      "accuracy": 0.7448840381991815,
+      "macro_f1": 0.6208576134470121,
+      "macro_auc": 0.9378831447539653,
+      "cohens_kappa_unweighted": 0.6345971854565037,
+      "mcc": 0.6524165198908785,
+      "fold": 0,
+      "stopping_epoch": 8,
+      "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_0/best.pt"
+    },
+    {
+      "best_epoch": 3,
+      "validation_loss": 0.6516528250331931,
+      "accuracy": 0.7762619372442019,
+      "macro_f1": 0.6277446685159838,
+      "macro_auc": 0.9235810867538591,
+      "cohens_kappa_unweighted": 0.671081001214854,
+      "mcc": 0.6748909559096665,
+      "fold": 1,
+      "stopping_epoch": 8,
+      "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_1/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6325606250827992,
+      "accuracy": 0.8021828103683493,
+      "macro_f1": 0.6716143209142309,
+      "macro_auc": 0.9324075423625459,
+      "cohens_kappa_unweighted": 0.7081333274750382,
+      "mcc": 0.7113502530970675,
+      "fold": 2,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_2/best.pt"
+    },
+    {
+      "best_epoch": 4,
+      "validation_loss": 0.6354305392406026,
+      "accuracy": 0.8224043715846995,
+      "macro_f1": 0.6847898351907644,
+      "macro_auc": 0.9209165735243221,
+      "cohens_kappa_unweighted": 0.7363579945919588,
+      "mcc": 0.7382419208116742,
+      "fold": 3,
+      "stopping_epoch": 9,
+      "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_3/best.pt"
+    },
+    {
+      "best_epoch": 6,
+      "validation_loss": 0.6544183881191483,
+      "accuracy": 0.7770177838577291,
+      "macro_f1": 0.6353317731322846,
+      "macro_auc": 0.9141413394858224,
+      "cohens_kappa_unweighted": 0.6742299553256524,
+      "mcc": 0.6814162188843805,
+      "fold": 4,
+      "stopping_epoch": 11,
+      "checkpoint_path": "/workspace/project/training/runs/efficientnet_b7/fold_4/best.pt"
+    }
+  ],
+  "metrics": {
+    "validation_loss": {
+      "mean": 0.6437269577341471,
+      "sample_std": 0.00963533072051053
+    },
+    "accuracy": {
+      "mean": 0.7845501882508322,
+      "sample_std": 0.029337195840874963,
+      "paper": 0.792,
+      "difference": -0.007449811749167812
+    },
+    "macro_f1": {
+      "mean": 0.6480676422400552,
+      "sample_std": 0.028366251169002744
+    },
+    "macro_auc": {
+      "mean": 0.9257859373761029,
+      "sample_std": 0.009412183720493043,
+      "paper": 0.898,
+      "difference": 0.02778593737610291
+    },
+    "cohens_kappa_unweighted": {
+      "mean": 0.6848798928128015,
+      "sample_std": 0.03880366742740745,
+      "paper": 0.829,
+      "difference": -0.14412010718719848
+    },
+    "mcc": {
+      "mean": 0.6916631737187334,
+      "sample_std": 0.03348047186604638,
+      "paper": 0.672,
+      "difference": 0.019663173718733384
+    }
+  },
+  "std_ddof": 1,
+  "unique_held_out_images": 3662,
+  "paper_source": "classification.pdf, page 8, Table 2",
+  "limitations": [
+    "Paper Table 2 does not report EfficientNet-B7 macro F1 or validation loss.",
+    "Paper kappa 0.829 exceeds accuracy 0.792 and cannot be ordinary unweighted kappa on the same predictions. Weighting or reporting needs clarification.",
+    "Unweighted kappa, the existing image-level splits and documented reproduction assumptions are preserved."
+  ]
+}

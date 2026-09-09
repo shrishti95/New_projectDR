@@ -1,0 +1,12 @@
+{
+  "best_epoch": 7,
+  "validation_loss": 0.5998915224901488,
+  "accuracy": 0.7980900409276944,
+  "macro_f1": 0.6780967485787605,
+  "macro_auc": 0.9387400065386574,
+  "cohens_kappa_unweighted": 0.7068182248130522,
+  "mcc": 0.7148630476246084,
+  "fold": 1,
+  "stopping_epoch": 12,
+  "checkpoint_path": "/workspace/project/training/runs/convnext_tiny/fold_1/best.pt"
+}
