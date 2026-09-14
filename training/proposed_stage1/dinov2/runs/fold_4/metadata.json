@@ -1,0 +1,29 @@
+{
+  "fold": 4,
+  "model": "vit_base_patch14_dinov2.lvd142m",
+  "feature_dimension": 768,
+  "total_parameters": 85728773,
+  "train_samples": 2931,
+  "validation_samples": 731,
+  "trainable_head": 85728773,
+  "config": {
+    "seed": 42,
+    "head_epochs": 3,
+    "max_epochs": 30,
+    "patience": 5,
+    "batch_size": 32,
+    "effective_batch_size": 32,
+    "workers": 4,
+    "head_warmup_lr": 0.001,
+    "backbone_lr": 1e-05,
+    "head_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gamma": 2.0,
+    "smoothing": 0.1,
+    "gradient_clip": 1.0,
+    "bf16": true,
+    "final_blocks": 2
+  },
+  "manifest_sha256": "49c00bc9bf5272330a727ae8d6a7e6e6474d48f68070dd913b644d7b4f78c1d1",
+  "gpu": "NVIDIA B200 MIG 1g.45gb"
+}

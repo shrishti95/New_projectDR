@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "variant": "vit_base_patch14_dinov2.lvd142m",
+  "feature_dimension": 768,
+  "total_parameters": 85728773,
+  "head_trainable_parameters": 3845,
+  "input_resolution": 224,
+  "bf16_stable": true,
+  "feature_shape": [
+    2,
+    768
+  ],
+  "metrics": "validated"
+}

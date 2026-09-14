@@ -1,0 +1,5 @@
+{
+  "stage": "complete",
+  "folds": 5,
+  "report": "dinov2_five_fold_report.md"
+}
