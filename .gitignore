@@ -12,3 +12,15 @@ __pycache__/
 *.key
 training/runs/**/active_process.json
 training/runs/**/queue_status.json
+
+aptos2019-blindness-detection.zip
+
+training/stage3/
+
+fusion/features/
+
+ssh-keygen*
+
+training/stage3_reproduction/
+
+training/stage3_final/

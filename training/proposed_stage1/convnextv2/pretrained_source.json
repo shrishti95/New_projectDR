@@ -1,0 +1,9 @@
+{
+  "repo_id": "timm/convnextv2_base.fcmae_ft_in1k",
+  "revision": "7b29800e499fdc06de5b612970f3384dc8d29ca5",
+  "filename": "model.safetensors",
+  "path": "/workspace/New_projectDR/.cache/huggingface/models--timm--convnextv2_base.fcmae_ft_in1k/snapshots/7b29800e499fdc06de5b612970f3384dc8d29ca5/model.safetensors",
+  "sha256": "ec152f1e375edc2b3dfac7a81155a449b4c5cbb7c5cf0b9494838f6c87518d73",
+  "url": "https://huggingface.co/timm/convnextv2_base.fcmae_ft_in1k/resolve/7b29800e499fdc06de5b612970f3384dc8d29ca5/model.safetensors",
+  "pretraining": "FCMAE on ImageNet-1k, fine-tuned on ImageNet-1k"
+}
