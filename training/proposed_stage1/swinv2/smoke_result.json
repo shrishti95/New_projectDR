@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "batch_size": 32,
+  "bf16": true,
+  "total_parameters": 86898941,
+  "trainable_parameters": {
+    "head": 5125,
+    "partial": 84767077
+  },
+  "head": "Linear(in_features=1024, out_features=5, bias=True)",
+  "feature_shape": [
+    32,
+    1024
+  ],
+  "head_loss_sequence": [
+    1.1858341693878174,
+    1.0821285247802734,
+    1.0169672966003418,
+    0.9474382400512695,
+    0.8788934350013733,
+    0.8191797137260437,
+    0.767256498336792,
+    0.7190725803375244
+  ],
+  "checkpoint_restore": true,
+  "sample_alignment": true,
+  "metric_test": true,
+  "gpu_peak_allocated_bytes": 5466516480,
+  "timm": "1.0.19"
+}

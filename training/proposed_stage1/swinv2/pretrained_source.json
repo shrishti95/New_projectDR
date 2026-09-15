@@ -1,0 +1,9 @@
+{
+  "repo": "timm/swinv2_base_window8_256.ms_in1k",
+  "revision": "62a4492913c5c64d5b14c9b10c7fd947be4f5a43",
+  "path": "/root/.cache/huggingface/hub/models--timm--swinv2_base_window8_256.ms_in1k/snapshots/62a4492913c5c64d5b14c9b10c7fd947be4f5a43/model.safetensors",
+  "sha256": "8af636334fb7dfcdf090da7eb787cb94e23325984f48f30523586d86265d7921",
+  "pretraining": "Microsoft ImageNet-1k",
+  "input_resolution": 256,
+  "feature_dimension": 1024
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "training/proposed_stage1/swinv2/recovery/fold_0_best_weights.pt",
+    "sha256": "f696a0915b248956170a4fda74026ae139d2f283d36f1bb4551bebcaff7c2588",
+    "bytes": 347765857,
+    "fold": 0,
+    "epoch": 11,
+    "selection": "minimum validation loss",
+    "tensor_exact": true
+  },
+  {
+    "file": "training/proposed_stage1/swinv2/recovery/fold_1_best_weights.pt",
+    "sha256": "24827216cdc55a56569d260582c1fa5e56bd963af091e5db3063beabeb743981",
+    "bytes": 347765857,
+    "fold": 1,
+    "epoch": 12,
+    "selection": "minimum validation loss",
+    "tensor_exact": true
+  },
+  {
+    "file": "training/proposed_stage1/swinv2/recovery/fold_2_best_weights.pt",
+    "sha256": "c8f52e51d40525e700cae6c618eb0acbec8bdd5a9a44190417441caa92ce5f1d",
+    "bytes": 347765857,
+    "fold": 2,
+    "epoch": 11,
+    "selection": "minimum validation loss",
+    "tensor_exact": true
+  },
+  {
+    "file": "training/proposed_stage1/swinv2/recovery/fold_3_best_weights.pt",
+    "sha256": "b62a2caa0d737b823fffef6199992a310fe12def808014ab68953c3429d82abc",
+    "bytes": 347765857,
+    "fold": 3,
+    "epoch": 7,
+    "selection": "minimum validation loss",
+    "tensor_exact": true
+  },
+  {
+    "file": "training/proposed_stage1/swinv2/recovery/fold_4_best_weights.pt",
+    "sha256": "8a026390bedc0c382a5b31387485a1171f9552590c23163d998224e76ab957d7",
+    "bytes": 347765857,
+    "fold": 4,
+    "epoch": 12,
+    "selection": "minimum validation loss",
+    "tensor_exact": true
+  }
+]
