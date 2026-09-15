@@ -1,0 +1,36 @@
+{
+  "fold": 4,
+  "architecture": "official RETFound MAE ViT-Large/16",
+  "checkpoint": "/workspace/New_projectDR/training/proposed_stage1/retfound/checkpoints/RETFound_mae_natureCFP.pth",
+  "feature_dimension": 1024,
+  "total_parameters": 303306757,
+  "train_samples": 2931,
+  "validation_samples": 731,
+  "class_weights": [
+    0.4059556722640991,
+    1.9804054498672485,
+    0.7327499985694885,
+    3.781935453414917,
+    2.483898401260376
+  ],
+  "manifest_sha256": "49c00bc9bf5272330a727ae8d6a7e6e6474d48f68070dd913b644d7b4f78c1d1",
+  "gpu": "NVIDIA B200 MIG 1g.45gb",
+  "config": {
+    "seed": 42,
+    "head_epochs": 3,
+    "max_epochs": 30,
+    "patience": 5,
+    "batch_size": 32,
+    "effective_batch_size": 32,
+    "workers": 4,
+    "head_warmup_lr": 0.001,
+    "backbone_lr": 5e-06,
+    "head_lr": 5e-05,
+    "weight_decay": 0.0001,
+    "gamma": 2.0,
+    "smoothing": 0.1,
+    "gradient_clip": 1.0,
+    "final_blocks": 4,
+    "bf16": true
+  }
+}
